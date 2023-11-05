@@ -22,7 +22,7 @@ group :development, :test do
 end
 
 group :test do
-  gem "cuprite"
+  gem "cuprite", ">= 0.15"
   gem "capybara"
   gem "webrick"
 

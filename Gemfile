@@ -10,7 +10,7 @@ group :development, :test do
   gem "pundit"
 
   gem "draper"
-  gem "devise"
+  gem "devise", ">= 4.9.0"
 
   gem "rails", "~> 7.0.0"
 
@@ -28,13 +28,13 @@ group :test do
   gem "simplecov", require: false # Test coverage generator. Go to /coverage/ after running tests
   gem "cucumber-rails", require: false
   gem "cucumber"
-  gem "database_cleaner"
+  gem "database_cleaner", ">= 2.0.2"
   gem "jasmine"
   gem "jasmine-core"
   gem "launchy"
   gem "parallel_tests"
   gem "rails-i18n" # Provides default i18n for many languages
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 6.0.0"
   gem "sqlite3", platform: :mri
 end
 
@@ -52,7 +52,7 @@ group :lint do
   gem "mdl"
 
   # Translations
-  gem "i18n-tasks"
+  gem "i18n-tasks", ">= 1.0.10"
   gem "i18n-spec"
 end
 

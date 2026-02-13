@@ -40,7 +40,7 @@ end
 
 group :release do
   gem "chandler" # Github releases from changelog
-  gem "octokit"
+  gem "octokit", ">= 5.0.0"
 end
 
 group :lint do
